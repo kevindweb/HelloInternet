@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt install -y ruby-full
+echo
+
 echo "This is the version of ruby you are using:"
 ruby -v
 echo
