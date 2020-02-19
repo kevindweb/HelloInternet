@@ -1,6 +1,7 @@
 # Hello Internet! in Ruby
 
-**TODO: Document ruby server functions!**
+Group Members:
+Zach Coveno, Jon Minkin, & Kevin Deems
 
 ## Creating a Socket
 
@@ -11,7 +12,7 @@ For creating a server use `TCPServer.open(<port number>)`.
 ## Connecting to a Server
 
 Creating a socket in Ruby is the same as establishing a connection. Using the `TCPSocket.new`, an object is created and established with the provided data.
-For a server to find a client, use `socket.accept`, which returns a client object. The client object can provide information like IP and hostname of client.
+For a server to find a client, use `server.accept`, which returns a client object. The client object can provide information like IP and hostname of client.
 
 ## Sending and Receiving
 
